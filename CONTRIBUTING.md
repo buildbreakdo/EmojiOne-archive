@@ -1,4 +1,4 @@
-##How to contribute to the Emoji One library
+##How to contribute to the EmojiTwo library
 ---
 ###code format
 * Try to maintain the general code convention currently found in the library.
@@ -10,13 +10,9 @@
 * If there are tests available in the library run your patch through them before submitting your pull request. If no tests are available in the library test the patch as thoroughly as possible before submitting.
 
 ###emoji art (PNG & SVG)
-* We unfortunately cannot accept submissions for emoji art revisions. Due to the copyright of the art and the potential for it's licensing in different situations this isn't possible.  
-* Design suggestions are welcome. They will be considered by the designers. There's no guarantee they will be adopted. 
-* Notes on visual errors are also accepted.
-* Both can be submitted through the contact form at http://emojione.com/contact/  
-  
+Keep in mind that although main license is CC-BY 4.0, non-commercial and private use does not require attribution. When submitting artwork, you allow non-commercial and private use without attribution.
 
 Thank you for your interest in contributing to this library.
 
 Regards,  
-Emoji One Team
+EmojiTwo
