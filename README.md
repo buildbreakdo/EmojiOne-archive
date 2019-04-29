@@ -1,4 +1,4 @@
-# Emoji-CC <img src="/svg/stuckOutTongueWinkingEye.svg" data-canonical-src="/svg/stuckOutTongueWinkingEye.svg" width="38" height="38" />
+# Emoji-CC <img src="/svg/stuckOutTongue.svg" data-canonical-src="/svg/stuckOutTongue.svg" width="38" height="38" /><img src="/svg/stuckOutTongueClosedEyes.svg" data-canonical-src="/svg/stuckOutTongueClosedEyes.svg" width="38" height="38" /><img src="/svg/stuckOutTongueWinkingEye.svg" data-canonical-src="/svg/stuckOutTongueWinkingEye.svg" width="38" height="38" />
 Emoji Creative Commons is a fork of the last fully free EmojiOne™ 2.x version.
 
 ### Installation
