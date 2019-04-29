@@ -91,7 +91,7 @@ class example extends Component {
 ## Why only SVG?
 All major browsers and devices support SVG. Scalable vector graphics (SVG) is a description for a path and not the rendered path itself, this means scaling up or down to your devices viewport can happen without loss of quality or fidelity. 
 
-SVG is only format supported by this project.
+SVG is only format supported by this repository.
 
 ## History
 > EmojiTwo is a fork of the last fully free EmojiOne™ 2.x version.
