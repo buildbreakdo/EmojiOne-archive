@@ -1,0 +1,3 @@
+.emoji-ng {
+  background: center / contain no-repeat url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3e%3cpath d='M62%2c52c0%2c5.5-4.5%2c10-10%2c10H12C6.5%2c62%2c2%2c57.5%2c2%2c52V12C2%2c6.5%2c6.5%2c2%2c12%2c2h40c5.5%2c0%2c10%2c4.5%2c10%2c10V52z' fill='%234fd1d9'/%3e%3cg fill='white'%3e%3cpath d='m44 42c-5.5 0-10-4.5-10-10 0-5.5 4.5-10 10-10 2.6 0 5 1 6.9 2.7l-2.3 2.4c-1.2-1.2-2.9-1.8-4.6-1.8-3.7 0-6.7 3-6.7 6.7 0 3.7 3 6.7 6.7 6.7 3.1 0 5.7-2.1 6.5-5h-6.5v-3.3h10v1.6c0 5.5-4.5 10-10 10'/%3e%3cpath d='m26.7 22v14.3l-14.3-14.3h-2.4v20h3.3v-14.3l14.3 14.3h2.4v-9-11z'/%3e%3c/g%3e%3c/svg%3e");
+}

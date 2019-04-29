@@ -1,0 +1,1 @@
+module.exports = { "background": "center / contain no-repeat url(\"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3e%3cpath d='M32%2c2c16.6%2c0%2c30%2c13.4%2c30%2c30H2C2%2c15.4%2c15.4%2c2%2c32%2c2z' fill='%23f9f9f9'/%3e%3cpath d='m32 62c-16.6 0-30-13.4-30-30h60c0 16.6-13.4 30-30 30' fill='%23ed4c5c'/%3e%3c/svg%3e\")" }

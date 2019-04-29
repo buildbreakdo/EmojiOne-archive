@@ -25,7 +25,9 @@
     "url": "https://github.com/buildbreakdo/emoji-cc.git"
   },
   "bugs": "https://github.com/buildbreakdo/emoji-cc/issues",
-  "devDependencies": {},
+  "devDependencies": {
+    "mini-svg-data-uri": "^1.0.3"
+  },
   "scripts": {
     "build": "node build.js"
   }
