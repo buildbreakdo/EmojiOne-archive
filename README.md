@@ -7,3 +7,19 @@
 > Considering that the EmojiOne project ony changed the ReadMe file in that branch to mandate attribution in any case, 
 > EmojiTwo forked a state before those changes for greater flexibility.
 > Whether or not EmojiTwo will see continued development, is not clear. At the very least it serves as backup. Hopefully Free > Software organsizations that adopted EmojiOne 2.x, such as Mozilla and KDE, will continue development of a fully free emoji > set in some form.
+
+## License
+
+#### EmojiOne Artwork
+
+*  Applies to all PNG and SVG files as well as any adaptations made.
+*  License: Creative Commons Attribution 4.0 International
+*  Human Readable License: http://creativecommons.org/licenses/by/4.0/
+*  Complete Legal Terms: http://creativecommons.org/licenses/by/4.0/legalcode
+
+
+#### EmojiOne Non-Artwork
+
+*  Applies to the Javascript, JSON, PHP, CSS, HTML files, and everything else not covered under the artwork license above.
+*  License: MIT
+*  Complete Legal Terms: http://opensource.org/licenses/MIT
