@@ -11,8 +11,51 @@ npm install emoji-cc --save
 [![NPM Stats](https://nodei.co/npm/emoji-cc.png?downloads=true)](https://npmjs.org/package/emoji-cc)
 
 ### Usage
+Selective import and lazy loading are ideal, total size for all emoji is around 3Mb, making it less than ideal to include something like `emoji.css` on a client bundle.
 
-#### React
+#### HTML
+Copy `./svg` into the `/public` directory.
+```
+<html>
+  <head></head>
+  <body>
+    <img src="/public/svg/coffee.svg" />
+  </body>
+</html>
+```
+
+#### HTML + CSS, single
+Copy `./css/coffee.css` into the `/public/css/coffee.css` directory of your project.
+```
+<html>
+  <head>
+    <link rel="stylesheet" href="/public/css/coffee.css" />
+  </head>
+  <body>
+    <div class="emoji-coffee">
+      Hello World
+    </div>
+  </body>
+</html>
+```
+
+#### HTML + CSS, all
+Copy `./emoji.css` into the `/public/css` directory of your project.
+```
+<html>
+  <head>
+    <link rel="stylesheet" href="/public/emoji.css" />
+  </head>
+  <body>
+    <div class="emoji-coffee">
+      Hello World
+    </div>
+  </body>
+</html>
+```
+
+
+#### React, svg import
 ```
 import React, { Component } from 'react';
 import coffee from 'emoji-cc/svg/coffee.svg';
@@ -20,13 +63,35 @@ import coffee from 'emoji-cc/svg/coffee.svg';
 class example extends Component {
   render() {
     return (
-      <div>
+      <main>
         {coffee}
-      </div>
+      </main>
     )
   }
 }
 ```
+#### React, inline style
+```
+import React, { Component } from 'react';
+import coffee from 'emoji-cc/style/coffee.js';
+
+class example extends Component {
+  render() {
+    return (
+      <main>
+        <div style={coffee} />
+        
+        <div style={{ border: '1px solid black', ...coffee}} />
+      <main>
+    )
+  }
+}
+```
+
+## Why only SVG?
+All major browsers and devices support SVG. Scalable vector graphics (SVG) is a description for a path and not the rendered path itself, this means scaling up or down to your devices viewport can happen without loss of quality or fidelity. 
+
+SVG is only format supported by this project.
 
 ## History
 > EmojiTwo is a fork of the last fully free EmojiOne™ 2.x version.
