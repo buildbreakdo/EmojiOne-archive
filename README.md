@@ -11,7 +11,7 @@ npm install emoji-cc --save
 [![NPM Stats](https://nodei.co/npm/emoji-cc.png?downloads=true)](https://npmjs.org/package/emoji-cc)
 
 ### Usage
-Selective import and lazy loading are ideal, total size for all emoji is around 3Mb, making it less than ideal to include something like `emoji.css` on a client bundle.
+Selective import and lazy loading are ideal, total size for all emoji is around 3Mb, making it less than ideal to include something like `emoji.css` in a client bundle.
 
 #### HTML
 Copy `./svg` into the `/public` directory.
