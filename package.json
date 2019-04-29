@@ -1,6 +1,6 @@
 {
   "name": "emoji-cc",
-  "version": "2.2.7",
+  "version": "1.0.0",
   "description": "Complete set of emojis designed for the web. It includes libraries to easily convert unicode characters to shortnames (:smile:) and shortnames to our custom emoji images. SVG formats provided for the emoji images.",
   "author": "Joshua Robinson <buildbreakdo@@users.noreply.github.com>",
   "main": "index.js",
@@ -25,8 +25,8 @@
     "url": "https://github.com/buildbreakdo/emoji-cc.git"
   },
   "bugs": "https://github.com/buildbreakdo/emoji-cc/issues",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "scripts": {
+    "build": "node build.js"
   }
 }
