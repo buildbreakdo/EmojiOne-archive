@@ -1,6 +1,6 @@
 {
   "name": "emoji-cc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Complete set of emojis designed for the web. It includes JSON to help convert unicode characters to shortnames (:smile:) and shortnames to our custom emoji images. SVG formats provided for the emoji images.",
   "author": "Joshua Robinson <buildbreakdo@@users.noreply.github.com>",
   "main": "index.js",
