@@ -1,3 +1,4 @@
+## History
 > EmojiTwo is a fork of the last fully free EmojiOne™ 2.x version.
 > The non-free EmojiOne 3.0 assets have been completely deleted.
 > The EmojiOne project made changes to 2.2.7’s licensing. Previously EmojiOne did not require attribution for non-commercial 
