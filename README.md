@@ -1,3 +1,33 @@
+# Emoji-CC
+Emoji Creative Commons is a fork of the last fully free EmojiOne™ 2.x version.
+
+### Installation
+
+Install with npm.
+
+```sh
+npm install emoji-cc --save
+```
+[![NPM Stats](https://nodei.co/npm/emoji-cc.png?downloads=true)](https://npmjs.org/package/emoji-cc)
+
+### Usage
+
+#### React
+```
+import React, { Component } from 'react';
+import coffee from 'emoji-cc/svg/coffee.svg';
+
+class example extends Component {
+  render() {
+    return (
+      <div>
+        {coffee}
+      </div>
+    )
+  }
+}
+```
+
 ## History
 > EmojiTwo is a fork of the last fully free EmojiOne™ 2.x version.
 > The non-free EmojiOne 3.0 assets have been completely deleted.
